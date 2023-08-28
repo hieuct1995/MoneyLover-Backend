@@ -4,9 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rimraf dist && tsc -p tsconfig.build.json",
-    "start:dev": "tsc-watch -p tsconfig.build.json --onSuccess \"node dist/index.js\"",
-    "start": "tsc && node dist/index.js"
+    "start": "tsc-watch -p tsconfig.build.json --onSuccess \"node dist/index.js\""
   },
   "author": "",
   "license": "ISC",

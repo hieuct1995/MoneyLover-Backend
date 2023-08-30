@@ -41,7 +41,7 @@ app.use('/api', transactionRouter);
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: "https://money-lover-frontend-n4nxcla71-hieuct1995.vercel.app",
+        origin: "https://money-lover-demo.vercel.app",
         methods: ["GET", "POST", "DELETE", "PUT"],
         credentials: true
     }

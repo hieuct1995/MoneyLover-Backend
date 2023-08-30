@@ -130,7 +130,10 @@ class WalletController {
                     relations: {
                         icon: true,
                         currency: true,
-                        walletRoles: true
+                        walletRoles: {
+                            wallet: true,
+                            user: true
+                        }
                     },
                     where: {
                         walletRoles: {

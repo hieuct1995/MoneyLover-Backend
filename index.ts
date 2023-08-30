@@ -93,8 +93,8 @@ io.on('connection', (socket: Socket) => {
                 delete pendingResponseMessages[userID];
             }
         }
-        console.log("Clients in now");
-        console.log(connectedUsers);
+        // console.log("Clients in now");
+        // console.log(connectedUsers);
     });
 
     socket.on('sendMessage', async (data) => {
@@ -123,9 +123,9 @@ io.on('connection', (socket: Socket) => {
 
     socket.on('responseMessage', async (data) => {
         const {response, senderEmail, receiverEmail, walletID} = data;
-        // console.log("<<<<<<<<<<<<<");
-        // console.log(data);
-        // console.log("<<<<<<<<<<<<<");
+        console.log("<<<<<<<<<<<<<");
+        console.log(data);
+        console.log("<<<<<<<<<<<<<");
         const receiverID = await UserController.getUserIDByEmail(receiverEmail);
         let receiverSocketId: string = '';
         for (const user of connectedUsers) {

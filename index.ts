@@ -123,9 +123,9 @@ io.on('connection', (socket: Socket) => {
 
     socket.on('responseMessage', async (data) => {
         const {response, senderEmail, receiverEmail, walletID} = data;
-        console.log("<<<<<<<<<<<<<");
+        // console.log("<<<<<<<<<<<<<");
         console.log(data);
-        console.log("<<<<<<<<<<<<<");
+        // console.log("<<<<<<<<<<<<<");
         const receiverID = await UserController.getUserIDByEmail(receiverEmail);
         let receiverSocketId: string = '';
         for (const user of connectedUsers) {

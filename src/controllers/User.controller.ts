@@ -22,8 +22,10 @@ const GOOGLE_MAILER_CLIENT_ID =
     '420362997504-21gqqs491gttfqp41skjbfe2776dq15t.apps.googleusercontent.com';
 const GOOGLE_MAILER_CLIENT_SECRET = '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';
 const GOOGLE_MAILER_REFRESH_TOKEN =
+    '1//04gw_P9p_uiAaCgYIARAAGAQSNwF-L9IrU-PT14g7eJqTKlEEdgrQl_tEz9xIOkOGB8lLP2F8AniNKAd1Pu7bFlt4v_HoLshlziY'
     // '1//04k5BLOr8_REdCgYIARAAGAQSNwF-L9Irg28V3sQhJPXgiDU3i51Bdymwdh7oTU5xWOhRf4aNWHZVD4mMg1Uaf5W1KPEyMOU1VkI';
-    '1//04RSJA_MIFCt5CgYIARAAGAQSNwF-L9IrfGuvMSjkszxeVeoowzVzAj0qEcFXl6cKkeIFHwfVU0bj-0BxIK-bdZOINP-YsP7DEv0';
+    // '1//04RSJA_MIFCt5CgYIARAAGAQSNwF-L9IrfGuvMSjkszxeVeoowzVzAj0qEcFXl6cKkeIFHwfVU0bj-0BxIK-bdZOINP-YsP7DEv0';
+    
 const ADMIN_EMAIL_ADDRESS = 'tnhieutn@gmail.com';
 
 // Khởi tạo OAuth2Client với Client ID và Client Secret

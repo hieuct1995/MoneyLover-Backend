@@ -19,14 +19,16 @@ import CategoryController from "./Category.controller";
 const crypto = require('crypto');
 
 const GOOGLE_MAILER_CLIENT_ID =
-    '420362997504-21gqqs491gttfqp41skjbfe2776dq15t.apps.googleusercontent.com';
-const GOOGLE_MAILER_CLIENT_SECRET = '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';
+    // '420362997504-21gqqs491gttfqp41skjbfe2776dq15t.apps.googleusercontent.com';
+    '783717313976-3c8lic9ojj5qraqldkbepgb9dicjlk9k.apps.googleusercontent.com';
+const GOOGLE_MAILER_CLIENT_SECRET = 
+// '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';
+ "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";
 const GOOGLE_MAILER_REFRESH_TOKEN =
-    '1//04gHg5CFlFQkXCgYIARAAGAQSNwF-L9IrledNYNcoTY0xOrUBXTRJwyIafv2EangPa-FMD3hiI1Kfd9WT00a3fJEPiOBcbC37TtA'
-    // '1//04k5BLOr8_REdCgYIARAAGAQSNwF-L9Irg28V3sQhJPXgiDU3i51Bdymwdh7oTU5xWOhRf4aNWHZVD4mMg1Uaf5W1KPEyMOU1VkI';
-    // '1//04RSJA_MIFCt5CgYIARAAGAQSNwF-L9IrfGuvMSjkszxeVeoowzVzAj0qEcFXl6cKkeIFHwfVU0bj-0BxIK-bdZOINP-YsP7DEv0';
+    // '1//04gHg5CFlFQkXCgYIARAAGAQSNwF-L9IrledNYNcoTY0xOrUBXTRJwyIafv2EangPa-FMD3hiI1Kfd9WT00a3fJEPiOBcbC37TtA'
+    '1//04spc8oHOERwBCgYIARAAGAQSNwF-L9IrIOfm9S9zZlVTV1wrMO4o-QmKzA6U7LH0CsbvS5IHfrarJQSDomh_iy8Uy8kxzQ1uRpg'
     
-const ADMIN_EMAIL_ADDRESS = 'tnhieutn@gmail.com';
+const ADMIN_EMAIL_ADDRESS = 'temilator@gmail.com';
 
 // Khởi tạo OAuth2Client với Client ID và Client Secret
 const myOAuth2Client = new OAuth2Client(

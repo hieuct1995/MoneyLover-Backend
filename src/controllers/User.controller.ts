@@ -19,14 +19,11 @@ import CategoryController from "./Category.controller";
 const crypto = require('crypto');
 
 const GOOGLE_MAILER_CLIENT_ID =
-    // '420362997504-21gqqs491gttfqp41skjbfe2776dq15t.apps.googleusercontent.com';
     '783717313976-3c8lic9ojj5qraqldkbepgb9dicjlk9k.apps.googleusercontent.com';
 const GOOGLE_MAILER_CLIENT_SECRET = 
-// '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';
  "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";
 const GOOGLE_MAILER_REFRESH_TOKEN =
-    // '1//04gHg5CFlFQkXCgYIARAAGAQSNwF-L9IrledNYNcoTY0xOrUBXTRJwyIafv2EangPa-FMD3hiI1Kfd9WT00a3fJEPiOBcbC37TtA'
-    '1//04spc8oHOERwBCgYIARAAGAQSNwF-L9IrIOfm9S9zZlVTV1wrMO4o-QmKzA6U7LH0CsbvS5IHfrarJQSDomh_iy8Uy8kxzQ1uRpg'
+    '1//04ffGk62K-S6cCgYIARAAGAQSNwF-L9IrnNfGSgryHvYi1lYe4-2yUIm7YpeMfSndEa6eRvV890afxtkjkhWvXoj2L7TeR0EqVF4'
     
 const ADMIN_EMAIL_ADDRESS = 'temilator@gmail.com';
 
